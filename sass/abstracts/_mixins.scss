@@ -1,0 +1,38 @@
+@mixin sec-headings() {
+  h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: "Tilt Warp", cursive;
+    font-size: 3rem;
+    color: #000;
+  }
+}
+
+@mixin card-dimensions() {
+  .card {
+    height: 320px;
+    overflow: hidden;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-img-top img {
+    max-width: 100%;
+  }
+  .card-title {
+    text-align: center;
+    padding: 10px 20px;
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@mixin glass-morphism() {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
